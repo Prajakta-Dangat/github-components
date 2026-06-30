@@ -1,0 +1,12 @@
+name: Keyword Demo
+
+on:
+  push:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "Learning GitHub Actions"
